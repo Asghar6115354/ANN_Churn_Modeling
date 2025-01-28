@@ -1,1 +1,1 @@
-# churn_moseling
+# churn_modeling

@@ -30,7 +30,7 @@ balance = st.number_input('Balance')
 credit_Score = st.number_input('Credit Score',100, 1000,500)
 estimated_salary =  st.number_input('Estimated Salary')
 tenure = st.slider('Tenure',0,10)
-num_of_products = st.slider('Number of Products',[1,4])
+num_of_products = st.slider('Number of Products',1,4)
 has_cr_card = st.select_slider('Has Credit Card',[0,1])
 is_active_member = st.selectbox('Is Active Member',[0,1])
 
